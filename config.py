@@ -14,3 +14,4 @@ class Config(object):
     ADMINS = ['2yongbum@gmail.com']    
     POSTS_PER_PAGE = 25
     LANGUAGES = ['en', 'es', 'kr']
+    MS_TRANSLATOR_KEY = os.environ.get('MS_TRANSLATOR_KEY')
